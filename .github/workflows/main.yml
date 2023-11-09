@@ -4,6 +4,7 @@ on:
       - main
 jobs:
   deploy:
+    runs-on: ubuntu-latest
     name: Deploy from main
     steps:
       - run: xmake && xmake run

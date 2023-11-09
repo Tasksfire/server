@@ -5,6 +5,6 @@ COPY . .
 
 RUN apk add bash curl
 RUN curl -fsSL https://xmake.io/shget.text | bash
-RUN /root/.local/bin/xmake
+RUN /root/.local/bin/xmake --root
 
-CMD /root/.local/bin/xmake run
+CMD /root/.local/bin/xmake --root run

@@ -1,0 +1,9 @@
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    name: Deploy from main
+    run: xmake && xmake run
+

@@ -1,3 +1,7 @@
+uses: xmake-io/github-action-setup-xmake@v1
+with:
+  xmake-version: latest
+
 on:
   push:
     branches:
@@ -8,4 +12,3 @@ jobs:
     name: Deploy from main
     steps:
       - run: xmake && xmake run
-

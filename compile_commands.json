@@ -1,0 +1,6 @@
+[
+{
+  "directory": "/home/proggerx/coding/Tasksfire",
+  "arguments": ["/etc/profiles/per-user/proggerx/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-I", "/home/proggerx/.xmake/packages/c/crow/2023.07.22/d3ec5c76dd0543ebbf0258f0585ec5c9/include", "-I", "/home/proggerx/.xmake/packages/a/asio/1.28.0/309422cbda324fa39a4b1fd8690f8af9/include", "-I", "/home/proggerx/.xmake/packages/z/zlib/v1.3/45ea3fb9069b468faf0ef6782964c796/include", "-I", "/home/proggerx/.xmake/packages/o/openssl/1.1.1-t/25a06d63c5c94540b3812b3f969192cb/include", "-DNDEBUG", "-o", "build/.objs/Tasksfire/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
+}]

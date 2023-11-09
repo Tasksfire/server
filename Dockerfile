@@ -3,7 +3,8 @@ FROM ubuntu:latest
 WORKDIR /app
 COPY . .
 
-RUN apt install -y bash unzip
+RUN apt update
+RUN apt install -y bash p7zip-full curl
 RUN curl -fsSL https://xmake.io/shget.text | bash
 RUN /root/.local/bin/xmake --root -y
 
